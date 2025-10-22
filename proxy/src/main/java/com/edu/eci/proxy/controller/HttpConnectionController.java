@@ -12,10 +12,13 @@ import com.edu.eci.proxy.network.HttpConnectionService;
 @RestController
 public class HttpConnectionController {
 
-    @GetMapping("/greeting")
+    @GetMapping("/catalan")
     public String greeting(@RequestParam(value = "value") Integer value) throws IOException {
-        if (){
-            return HttpConnectionService.getConnection("");
+        String resp = HttpConnectionService.getConnection("http://3.90.113.72:8080/catalan?value="+value);
+        if (resp == null){
+            return HttpConnectionService.getConnection("http://3.90.113.72:8080/catalan?value="+value);
+        }else{
+            return resp;
         }
     }
 }

@@ -5,10 +5,11 @@ import java.util.List;
 
 public class CatalanService {
 
-    private List<Integer> catNumbers = new ArrayList<>();
+    private List<Integer> catNumbers;
 
 
     public List<Integer> getCatalanList(Integer value) {
+        catNumbers = new ArrayList<>();
         catNumbers.add(0, 1);
         for (int i = 1; i <= value; i++){
             catNumbers.add(-1);
