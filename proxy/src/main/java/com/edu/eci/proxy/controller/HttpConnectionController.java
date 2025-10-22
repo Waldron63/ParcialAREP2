@@ -14,11 +14,17 @@ public class HttpConnectionController {
 
     @GetMapping("/catalan")
     public String greeting(@RequestParam(value = "value") Integer value) throws IOException {
-        String resp = HttpConnectionService.getConnection("http://98.93.53.43:8080/catalan?value="+value);
-        if (resp == null){
-            return HttpConnectionService.getConnection("http://3.90.113.72:8080/catalan?value="+value);
-        }else{
+        try{
+            System.out.println("conexion a catalan 1");
+            String resp = HttpConnectionService.getConnection("http://98.93.53.43:8080/catalan?value="+value);
             return resp;
+        }catch (IOException e){
+            try {
+                System.out.println("conexion a catalan 2");
+                return HttpConnectionService.getConnection("http://3.90.113.72:8080/catalan?value="+value);
+            }catch (IOException e1){
+                return e1.getMessage();
+            }
         }
     }
 }
