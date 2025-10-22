@@ -3,7 +3,7 @@
 ## Video de muestra
 
 https://drive.google.com/file/d/16tcF_7097aKqQ_F1ms6egfzGH1NOaBR7/view?usp=drivesdk
-
+(NOTA: Mi ejercicio era inicialmente CATALAN; No subi el link a tiempo y cuando volvi a ingresar se me cambio por otro que no es.)
 ## Instalacion
 para instalar el proyecto, es necesario git, maven, java 17.
 ```sh
