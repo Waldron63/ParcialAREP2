@@ -14,7 +14,7 @@ public class HttpConnectionController {
 
     @GetMapping("/catalan")
     public String greeting(@RequestParam(value = "value") Integer value) throws IOException {
-        String resp = HttpConnectionService.getConnection("http://3.90.113.72:8080/catalan?value="+value);
+        String resp = HttpConnectionService.getConnection("http://98.93.53.43:8080/catalan?value="+value);
         if (resp == null){
             return HttpConnectionService.getConnection("http://3.90.113.72:8080/catalan?value="+value);
         }else{
