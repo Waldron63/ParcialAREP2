@@ -1,5 +1,9 @@
 # Parcial segundo corte de ARSW
 ## Santiago Gualdron Rincon
+## Video de muestra
+
+https://drive.google.com/file/d/16tcF_7097aKqQ_F1ms6egfzGH1NOaBR7/view?usp=drivesdk
+
 ## Instalacion
 para instalar el proyecto, es necesario git, maven, java 17.
 ```sh
@@ -37,6 +41,10 @@ reglas de cada instancia para seguridad:
 
 <img width="1592" height="120" alt="image" src="https://github.com/user-attachments/assets/e3366074-5e53-486e-af1e-12abfc7aab02" />
 
+instalacion del repo en cada instancia y comando verify:
+
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/d6315617-fe8d-418d-b906-8bbb82515ee9" />
+
 ### Pruebas en postman para cada instancia:
 #### catalan 1
 "ec2-98-93-53-43.compute-1.amazonaws.com" con IP "98.93.53.43":
@@ -61,3 +69,13 @@ reglas de cada instancia para seguridad:
 ### aws proxy
 
 <img width="558" height="282" alt="image" src="https://github.com/user-attachments/assets/1edd256e-4006-4d18-8d91-8c9f59b766ef" />
+
+### funcionamiento completo
+
+catalan 1
+
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/459d537b-784a-4dff-b1df-bb4ec131a426" />
+
+catalan 2
+
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/c5c00c89-8a79-40c6-bfb3-37700632d482" />
